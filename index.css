@@ -1,5 +1,8 @@
 html {
   background-color: rgb(0, 0, 0);
+  background-image:url("/brasas.gif");
+  background-size: cover;
+  background-position:center;
   font-size: 15px;
   font-family: "Bedrock", monospace; 
 }
@@ -32,7 +35,7 @@ p {
 body {
   width: 800px;
   margin: 50px auto;
-  background-color: transparent;
+  background-color: black;
   padding: 0 20px 20px 20px;
   border: 1px white;
  display: 
@@ -114,9 +117,6 @@ table, th, td {
 margin:auto;
   margin-top: 70px;
   margin-bottom: 10px;
-  background-image: url("/brasas.gif");
-  background-size: cover;
-  background-position:center;
   border: 1px solid black
 }
 #topBar {
