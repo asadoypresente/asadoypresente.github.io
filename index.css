@@ -1,10 +1,6 @@
 html {
   background-color: rgb(0, 0, 0);
   font-size: 15px;
-  background-image: url("/brasas.gif");
-  background-repeat: no-repeat;
-  background-size: 70%;
-background-position: center;
   font-family: "Bedrock", monospace; 
 }
 h1 {
@@ -118,7 +114,8 @@ table, th, td {
 margin:auto;
   margin-top: 70px;
   margin-bottom: 10px;
-  background-color:red;
+  background-size: cover;
+  background-position:center;
   border: 1px solid black
 }
 #topBar {
