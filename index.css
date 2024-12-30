@@ -114,6 +114,7 @@ table, th, td {
 margin:auto;
   margin-top: 70px;
   margin-bottom: 10px;
+  background-image: url("/brasas.gif");
   background-size: cover;
   background-position:center;
   border: 1px solid black
