@@ -4,7 +4,7 @@ html {
   background-image: url("/brasas.gif");
   background-repeat: no-repeat;
   background-size: 80%;
-  opacity: 0.7;
+background-position: center;
   font-family: "Bedrock", monospace; 
 }
 h1 {
