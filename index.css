@@ -60,7 +60,7 @@ a {
   transition: background-color .5s;
   transition: color .8s;
 }
-a:link, a:active, a:visited {color: #38ffdb}
+a:link, a:active, a:visited {color: red}
  
 a:hover {
   color: red;
