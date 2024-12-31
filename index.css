@@ -3,6 +3,7 @@ html {
   background-image:url("/brasas.gif");
   background-size: cover;
   background-position:bottom;
+  background-repeat: no-repeat;
   font-size: 15px;
   font-family: "Bedrock", monospace; 
 }
