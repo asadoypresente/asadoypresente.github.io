@@ -7,6 +7,7 @@ html {
   background-repeat: repeat-y;
   font-size: 15px;
   font-family: "Roboto Slab", monospace; 
+  line-height: 0.5cm;
 }
 h1 {
   margin: 0px;
