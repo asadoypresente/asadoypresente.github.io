@@ -23,6 +23,15 @@ h2 {
   margin: 0px;
   width: 750px;
   font-family: "Zilla Slab Highlight";
+font-size: 20px;
+  text-align: center;
+  color: red;
+  margin-left:25px;
+}
+h3 {
+  margin: 0px;
+  width: 750px;
+  font-family: "Zilla Slab Highlight";
 font-size: 18px;
   text-align: justify;
   color: red;
