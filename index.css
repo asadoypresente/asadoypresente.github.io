@@ -61,11 +61,12 @@ a {
   transition: background-color .5s;
   transition: color .8s;
 }
-a:link, a:active, a:visited {color: red}
+a:link, a:active, a:visited {color: #38ffdb}
  
 a:hover {
   color: red;
-transition: color .8s}
+transition: color .8s;
+text-decoration: underline;}
 head {position:fixed; width:900px; top:10%;
 }
 
