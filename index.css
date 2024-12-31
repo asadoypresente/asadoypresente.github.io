@@ -70,7 +70,7 @@ table, th, td {
             /* the area below is for all links on your page
     EXCEPT for the navigation */
             #container a {
-                color: #38ffdb;
+                color: red;
             }
 
  #navbar {
@@ -104,7 +104,7 @@ table, th, td {
 
             /* navigation link when a link is hovered over */
             #navbar li a:hover {
-                color:  #38ffdb;
+                color:  red;
                 text-decoration: underline;
             }
 
