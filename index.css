@@ -117,6 +117,7 @@ table, th, td {
  }
 #header {position:absolute; width: 700px; left:15%; top:1%;
 margin:auto;
+         background-color: transparent;
   margin-top: 70px;
   margin-bottom: 10px;
   border: 1px solid black
