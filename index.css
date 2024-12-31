@@ -4,7 +4,7 @@ html {
   height: 100%; 
   background-size: cover;
   background-position:center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   font-size: 15px;
   font-family: "Bedrock", monospace; 
 }
