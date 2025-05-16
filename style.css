@@ -12,32 +12,44 @@ html {
 h1 {
   margin: 0px;
   width: 750px;
-  font-family:"Zilla Slab Highlight";
+  font-family: "Zilla Slab Highlight";
   font-size: 30px;
+  font-weight: 500;
   text-decoration: underline;
   text-align: center;
-  color: #38ffdb;
+  color: red;
 }
 h2 {
   margin: 0px;
   width: 750px;
-  font-family:"Zilla Slab Highlight";
-  font-size: 20px;
+  font-family: "Zilla Slab Highlight";
+font-size: 20px;
+  text-align: center;
+  color: red;
+  margin-left:25px;
+}
+h3 {
+  margin: 0px;
+  width: 750px;
+  font-family: "Zilla Slab Highlight";
+font-size: 18px;
   text-align: justify;
-  color: #38ffdb;
+  color: red;
   margin-left:25px;
 }
   
 p {
-    width:750px;
+    width: 750px;
     text-align: justify;
     color:  #d9f1e9 ;
     margin-left: 25px;
+    font-family: "Roboto Slab", monospace; 
+   line-height: 0.5cm;
 }
-
 
 body {
   width: 800px;
+  height: auto;
   margin: 50px auto;
   background-color: transparent;
   padding: 0 20px 20px 20px;
@@ -51,10 +63,10 @@ a {
 }
 a:link, a:active, a:visited {color: #38ffdb}
  
-
 a:hover {
   color: red;
-transition: color .8s}
+transition: color .8s;
+text-decoration: underline;}
 head {position:fixed; width:900px; top:10%;
 }
 
@@ -73,7 +85,7 @@ table, th, td {
             /* the area below is for all links on your page
     EXCEPT for the navigation */
             #container a {
-                color: #38ffdb;
+                color: red;
             }
 
  #navbar {
