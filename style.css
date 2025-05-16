@@ -144,7 +144,7 @@ margin:auto;
                 background-color: #13092D;
             }
 
-.header {
+.header{position:absolute; width:100%; margin:auto;
   padding: 60px;
   text-align: center;
   background-color:rgb (235,100,79);
