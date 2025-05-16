@@ -78,7 +78,7 @@ table, th, td {
 
  #navbar {
                 height: 30px;
-                background-color: transparent;
+                background-color: rgb (235,100,79);
                 /* navbar color */
                 width: 100%;
               
@@ -136,7 +136,7 @@ margin:auto;
 .header {
   padding: 60px;
   text-align: center;
-  background-color:rgb (235,100,79);;
+  background-color:rgb (235,100,79);
   color: white;
   font-size: 30px;
 }
