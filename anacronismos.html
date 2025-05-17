@@ -1,63 +1,122 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://cdn.tailwindcss.com"></script>
     <title>anacronismos</title>
     <link href="https://asadoypresente.github.io/style.css" rel="stylesheet" type="text/css" media="all">
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-<header id="masthead" style="margin-left:0px;">     
-<img src="https://cuatrotrece.github.io/historia/asado%20y%20presente.jpg" width="150px">
-  <nav id="navbar" style="margin-bottom: 10px;"><ul>
-                <li><a href="/index.html">Asado y Presente</a></li>
-    <li><a href="/sobre-asado-y-presente.html">¿quién chota sos?</a></li>
-              </ul></nav>
-</header>
-            <br>
- <!-- Main Content -->
-    <div id="container">
-    <section >
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row gap-8">
-                <!-- Posts Section -->
-                        <!-- Post 1 -->
-                            <div class="cajaestatica">
-                                                            <h3><a href="/anacronismos/brat-remix-summer.html">brat/remix summer</a></h3>
-                                <div class="flex items-center text- text-white mb-2">
-                                    <span>por d.i.y.</span>
-                                    <span class="mx-2">•</span>
-                                    <span>18 de enero, 2025</span>
-                                </div>
-                                    <a href="/anacronismos/brat-remix-summer.html" class="text-red-500 hover:text-red-700 font-medium flex items-center"> Leer <i class="fas fa-arrow-right ml-2"></i>
-                                    </a>
-                        <div class="relative">
-                    </div>
-                                <p class="text-white-600 mb-4">El siguiente escrito es un despliegue de mis reflexiones en torno a BRAT (2024) de la artista pop británica Charli xcx. Más específicamente, al vínculo que se establece entre el álbum BRAT con su versión rémix, brat and it’s completely different but also still brat. </p>
-                                <div class="flex justify-between items-center">
-                          
-                                </div>
-                            </div>
-                      <br>
-<!-- Post 2 -->
-                            <div class="cajaestatica">
-                                                            <h3><a href="/anacronismos/operacion-estudiantes.html">OPERACIÓN E.S.T.U.D.I.A.N.T.E.S.</a></h3>
-                                <div class="flex items-center text-sm text-white mb-2">
-                                    <span>por d.i.y.</span>
-                                    <span class="mx-2">•</span>
-                                    <span>18 de diciembre, 2024</span>
-                                </div>
 
-                                <p class="text-white-600 mb-4">[E]stupenda [S]erie [T]elevisiva [U]bica [D]iferencias [I]ntergeneracionales [A]cadémicas [N]otoriamente [T]ensionadas [E]xpresadas [S]istemáticamente </p>
-                                <div class="flex justify-between items-center">
-                                    <a href="/anacronismos/operacion-estudiantes.html" class="text-red-500 hover:text-red-700 font-medium flex items-center">
-                                        Leer <i class="fas fa-arrow-right ml-2"></i>
-                                    </a>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-                                </div>
-                            </div>
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-image:url("/brasas.gif");
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Asado y Presente</h2>
 </div>
-  </body>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>brat/remix summer</h2>
+      <h5>por d.i.y. | 18 de enero, 2025</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>El siguiente escrito es un despliegue de mis reflexiones en torno a BRAT (2024) de la artista pop británica Charli xcx. Más específicamente, al vínculo que se establece entre el álbum BRAT con su versión rémix, brat and it’s completely different but also still brat. </p>
+    </p>  </div>
+    <div class="card">
+      <h2>OPERACIÓN E.S.T.U.D.I.A.N.T.E.S.</h2>
+      <h5>por d.i.y | 18 de diciembre, 2025</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+  <p>[E]stupenda [S]erie [T]elevisiva [U]bica [D]iferencias [I]ntergeneracionales [A]cadémicas [N]otoriamente [T]ensionadas [E]xpresadas [S]istemáticamente </p>
+                                </p>
+</div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+</div>
+</body>
+</html>
+
 </html>
