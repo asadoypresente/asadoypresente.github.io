@@ -68,13 +68,6 @@ transition: color .8s;
 text-decoration: underline;}
 head {position:fixed; width:900px; top:10%;
 }
-header {{position:absolute; width: 700px; left:15%; top:1%;
-margin:auto;
-  margin-top: 70px;
-  margin-bottom: 10px;
-  background-color:rgb(235,100,79);
-  border: 1px solid black
-}
 
 table, th, td {
     border: 1px solid black;
@@ -140,7 +133,7 @@ table, th, td {
 margin:auto;
   margin-top: 70px;
   margin-bottom: 10px;
-  background-color:rgb(235,100,79);
+  background:rgb(235,100,79);
   border: 1px solid black
 }
 #topBar {
@@ -154,7 +147,7 @@ margin:auto;
 .header{position:absolute; width:100%; margin:auto;
   padding: 60px;
   text-align: center;
-  background-color:rgb (235,100,79);
+  background:rgb (235,100,79);
   color: white;
   font-size: 30px;
 }
