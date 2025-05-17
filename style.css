@@ -87,7 +87,7 @@ table, th, td {
             }
 
  #navbar {
-                height: 30px;
+                height: 150px;
                 background-color: rgb (235,100,79);
                 /* navbar color */
                 width: 100%;
@@ -117,7 +117,7 @@ table, th, td {
 
             /* navigation link when a link is hovered over */
             #navbar li a:hover {
-                color:  #38ffdb;
+                color:  red;
                 text-decoration: underline;
             }
 
