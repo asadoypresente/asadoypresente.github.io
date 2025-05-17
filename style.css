@@ -62,7 +62,7 @@ a {
 a:link, a:active, a:visited {color: black;}
  
 a:hover {
-  color: red;
+  color: white;
 transition: color .8s;
 text-decoration: underline;}
 head {position:fixed; width:900px; top:10%;
@@ -114,7 +114,7 @@ background-color: rgb (235,100,79);
 
             /* navigation link when a link is hovered over */
             #navbar li a:hover {
-                color:  red;
+                color:  white;
                 text-decoration: underline;
             }
 
