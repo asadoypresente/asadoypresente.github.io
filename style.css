@@ -55,7 +55,7 @@ body {
  display: 
 }
 a {
-  color: #38ffdb;
+  color: black;
   transition: background-color .5s;
   transition: color .8s;
 }
